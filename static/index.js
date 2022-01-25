@@ -343,11 +343,11 @@ function shareText(score) {
         return '倒计时多了' + ((deviation_time / 1000) - 20).toFixed(2) + "s";
     }
     SubmitResults();
-    if (score <= 49) return '试着好好练一下？';
-    if (score <= 99) return 'TCL';
-    if (score <= 149) return 'TQL';
-    if (score <= 199) return '您';
-    return '人？';
+    if (score <= 49) return '滑了';
+    if (score <= 99) return '滑了吗';
+    if (score <= 149) return '没有啊';
+    if (score <= 199) return '010';
+    return '烧鸡';
 }
 
 function toStr(obj) {
@@ -413,14 +413,6 @@ function isnull(val) {
     } else {
         return false;
     }
-}
-function goRank() {
-    let name = document.getElementById("username").value;
-    let link = './rank.php';
-    if (!isnull(name)) {
-        link += "?name=" + name;
-    }
-    window.location.href = link;
 }
 
 function click(index) {
