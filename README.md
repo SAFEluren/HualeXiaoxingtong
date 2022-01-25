@@ -2,7 +2,7 @@
 </p>
 <div align="center">
 
-# EatKano
+# HualeXiaoxingtong
 
 _🦌 网页小游戏 🥛_
 
