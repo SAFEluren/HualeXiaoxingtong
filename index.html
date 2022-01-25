@@ -39,7 +39,16 @@
                 <div id="btn_group" style="display: block;">
                     <button type="button" id="ready-btn" class="btn btn-primary loading btn-lg">点击开始</button>
                 </div>
-                
+                <div id="setting" style="display: none;">
+                    <!-- 此为无排行榜版本，去除名字留言 -->
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="basic-addon1">按键</span>
+                        </div>
+                        <input type="text" id="keyboard" class="form-control" maxlength=4 placeholder="默认为DFJK">
+                    </div>
+                    <button type="button" class="btn btn-secondary btn-lg" onclick="show_btn();save_cookie();">完成</button>
+                </div>
             </div>
         </div>
     </div>
